@@ -488,7 +488,13 @@ strong {
   position: relative; /* For z-index stacking */
 }
 
+#hero-sub{
+  background-color: #000;
+}
 
+#hero-btn{
+  margin-left: 2%;
+}
 
 
 
@@ -574,6 +580,7 @@ strong {
   padding: 13px 30px;
   display: inline-block;
 }
+
 
 .profile-body p {
   margin-bottom: 0;
@@ -782,7 +789,8 @@ align-items: center;
 .projects-image {
   border-radius: var(--border-radius-medium);
   display: block;
-  width: 100%;
+  width: 300px;
+  height: 180px;
   transform: rotate(10deg) translateY(80px);
   transition: all ease 0.5s;
 }
@@ -1182,7 +1190,9 @@ align-items: center;
   padding-bottom: 0;
 }
 
-
+.custom-btn{
+  display: none;
+}
 
 
 

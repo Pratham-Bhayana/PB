@@ -750,7 +750,12 @@ align-items: center;
 
 #icon{
   font-size: 25px;
-  margin-left: 5%;
+  padding: 100%;
+  margin-left: 10%;
+}
+
+#icon:hover{
+  color: #fff;
 }
 .projects-thumb:hover {
   border-color: var(--secondary-color);
@@ -759,6 +764,13 @@ align-items: center;
 .projects-thumb:hover .projects-image,
 .projects-thumb:focus .projects-image {
   transform: rotate(0) translateY(0);
+}
+
+#read-more{
+  color: rgb(58, 128, 81);
+}
+#read-more:hover{
+  color: #14B789;
 }
 
 .projects-thumb .popup-image {

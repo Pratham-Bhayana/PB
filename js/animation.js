@@ -103,7 +103,8 @@
         skewY: 10,
         x:100,
         opacity: 0,
-        delay: i * 0.3,
+        duration:0.3,
+        delay: i * 0.1,
 
       });
     });
@@ -119,8 +120,8 @@
         scale: 0.9, // Slight scale-up effect
         opacity: 0,
         rotation: 5, // Subtle tilt for modern feel
-        duration: 1,
-        delay: i * 0.15, // Reduced stagger for smoother flow
+        duration: 0.3,
+        delay: i * 0.1, // Reduced stagger for smoother flow
         ease: "power3.out",
         transformOrigin: "center bottom",
       });
@@ -151,18 +152,7 @@
       ease: "power2.out",
     });
 
-    gsap.from(".contact-form .form-control, .contact-form button", {
-      scrollTrigger: {
-        trigger: ".contact-form",
-        start: "top 80%",
-        toggleActions: "play none none reverse",
-      },
-      y: 30,
-      opacity: 0,
-      duration: 0.8,
-      stagger: 0.2,
-      ease: "power2.out",
-    });
+
 
     // Footer Animation
     gsap.from(".site-footer", {
